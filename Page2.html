@@ -1,0 +1,101 @@
+
+<!-- <!DOCTYPE html>
+1 new elements that we didn't talk about class: Adding that Javascript Date and Time   -->
+
+<html>
+<head>
+    <title>ME AND SPORTS</title>
+    <link rel="icon" type="image/x-icon" href="/Users/sourabhhanumant/Desktop/Study">
+    <style>
+    body {
+        background-image: url('coffee_background.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        color: black;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+    }
+    .link-button {
+        background-color: #A9FBD7; 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    td, th {
+        border: 2px solid #B2E4DB;
+        text-align: left;
+        padding: 8px;
+    }
+    th {
+        background-color: #B0C6CE;
+        color: #fff;
+    }
+    td {
+        background-color: #938BA1;
+        color: #fff;
+    }
+
+    /* Responsive Adjustments */
+    @media only screen and (max-width: 600px) {
+        table, td, th {
+            font-size: 14px;
+        }
+    }
+    </style>
+       
+</head>
+<body>
+    <h1>Katlin Sannan</h1>
+    <h2>Minneapolis, Minnesota</h2>
+    <h1>Click Below For The Current Date and Time</h1>
+    <button type="button" onclick="displayDateTime()">
+        Click me to display Date and Time.
+    </button>
+    <p id="demo"></p>
+    <table>
+        <tr>
+            <th>
+                <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                </ul>
+            </th>
+            <th><img src="coffee background.png" alt="Red Box" width="100" height="100"></th>
+            <th style="background-color: #B0C6CE; color: #fff;">Light Purple Box</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Green Tea</li>
+                    <li>Black Tea</li>
+                    <li>Herbal Tea</li>
+                </ul>
+            </td>
+            <td></td>
+            <td style="background-color: #938BA1; color: #fff;">Purple Box</td>
+        </tr>
+    </table>
+    <a href="page3.html" class="link-button">Go to Page 3</a>
+    <script>
+        function displayDateTime() {
+            document.getElementById('demo').innerHTML = Date();
+        }
+    </script>
+</body>
+</html>

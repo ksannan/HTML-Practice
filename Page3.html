@@ -1,0 +1,94 @@
+/* 2 new elements that we didn't talk about class: commenting out code and adding a background hover */
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ME AND GOALS</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+    body {
+        background-color: #c8bfb3;
+        color: black;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .link-button {
+        background-color: #a6814c;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #a6814c;
+        padding: 8px;
+    }
+    th {
+        background-color: #a6814c;
+        color: white;
+    }
+    td {
+        background-color: #e8dacc;
+    }
+    /* Hover Effect */
+    .hover-row:hover {
+        background-color: #d1c4b9;
+    }
+    h1 {
+        display: inline-block;
+        padding: 5px;
+        transition: background-color 0.3s;
+    }
+    h1:hover {
+        background-color: #7b5f35;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <h1>Katlin Sannan</h1>
+    <h2>My Coffee Shop Ratings</h2>
+    <table>
+        <tr>
+            <th>Coffee Shop</th>
+            <th>Location</th>
+            <th>Rating</th>
+        </tr>
+        <tr class="hover-row">
+            <td><a href="https://www.starbucks.com" target="_blank">Starbucks</a></td>
+            <td>Minneapolis</td>
+            <td>0</td>
+        </tr>
+        <tr class="hover-row">
+            <td><a href="https://www.munkabeans.com" target="_blank">Munkbeans Coffee</a></td>
+            <td>Hopkins</td>
+            <td>4.8</td>
+        </tr>
+        <tr class="hover-row">
+            <td><a href="https://www.spyhousecoffee.com" target="_blank">Spyhouse Coffee</a></td>
+            <td>Minneapolis</td>
+            <td>4.7</td>
+        </tr>
+        <tr class="hover-row">
+            <td><a href="https://www.cafeceresmpls.com" target="_blank">Cafe Ceres</a></td>
+            <td>Edina</td>
+            <td>4.7</td>
+        </tr>
+        <tr class="hover-row">
+            <td><a href="https://www.opentable.com/the-bachelor-farmer" target="_blank">The Bachelor Farmer Cafe</a></td>
+            <td>Minneapolis</td>
+            <td>4.8</td>
+        </tr>
+    </table>
+    <a href="page1.html" class="link-button">Back to Page 1</a>
+</body>
+</html>
